@@ -1,5 +1,6 @@
 package com.e_com.demo.Model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -26,6 +27,8 @@ public class Product {
     private String brand;
     private BigDecimal price;
     private String category;
+
+
     private Date releaseDate;
     private boolean available;
     private int quantity;
